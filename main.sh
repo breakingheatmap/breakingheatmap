@@ -7,7 +7,7 @@ do
 	echo "$(date +%s)"
 	git add .
 	git commit -m "$(date +%s)"
-	git push origin master
+	git push -f origin master
 	sleep 5
 done
 
